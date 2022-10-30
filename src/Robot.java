@@ -5,7 +5,7 @@ public class Robot {
 
     @Override
     public String toString() {
-        return String.format("Robot on cell: x = %d, y = %d", x, y);
+        return String.format("Robot coords: x = %d, y = %d", x, y);
     }
 
     public Robot(int x, int y, Direction dir) {

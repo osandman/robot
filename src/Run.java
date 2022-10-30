@@ -4,7 +4,7 @@ public class Run {
         Board board = new Board();
         board.setCell(robot.getX(), robot.getY(), robot.getDirection());
         board.printBoard(robot.toString());
-        moveRobotAdv(robot, 2, 2);
+        moveRobotAdv(robot, 3, 2);
         board.setCell(robot.getX(), robot.getY(), robot.getDirection());
         board.printBoard(robot.toString());
     }
